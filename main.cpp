@@ -20,7 +20,7 @@
 ** along with QTRunner.  If not, see <http://www.gnu.org/licenses/>.
 **
 ****************************************************************************/
-#include <QtGui/QApplication>
+#include <QApplication>
 #include <memory>
 #include "mainwindow.h"
 #include "testsuite.h"

@@ -40,7 +40,7 @@
 #include "testfactory.h"
 #include "test.h"
 #include "version.h"
-#include <windows.h>
+//#include <windows.h>
 
 MainWindow::MainWindow(TestSuite *testSuite, QWidget *parent)
 :   QMainWindow(parent),

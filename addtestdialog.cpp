@@ -58,7 +58,11 @@ void AddTestDialog::selectTestExecutable()
 {
     QString fileName = QFileDialog::getOpenFileName(this, tr("Select a test"),
                                                     "",
+#ifdef Q_OS_WIN
                                                     tr("Executables (*.exe)"));
+#else
+                                                    tr("Executables (*)"));
+#endif
     ui->lineEditTest->setText(fileName);
 }
 

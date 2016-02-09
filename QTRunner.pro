@@ -1,9 +1,11 @@
 # -------------------------------------------------
 # Project created by QtCreator 2010-01-12T10:21:02
 # -------------------------------------------------
-QT += xml \
+QT += core \
+    xml \
     xmlpatterns \
-    network
+    network \
+    widgets
 TARGET = QTRunner
 TEMPLATE = app
 SOURCES += main.cpp \

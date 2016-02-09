@@ -23,7 +23,7 @@
 **
 ****************************************************************************/
 #include "test.h"
-#include <QtXml/QXmlStreamWriter>
+#include <QXmlStreamWriter>
 #include <QFile>
 
 Test::Test(QString name, QString filePathTest, QString filePathOutput)
@@ -115,7 +115,13 @@ QString Test::getName()
 
 QString Test::getTestFileName()
 {
+	//Shouldn't need to do this kind of stuff at all in Qt.
+	//TODO: Look at where this is coming from and fix the source of this issue.
+#ifdef Q_OS_WIN
     return m_executable.replace("/","\\");
+#else
+    return m_executable.replace("\\","/");
+#endif
 }
 
 QString Test::getTestOutputFileName()
