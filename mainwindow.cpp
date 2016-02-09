@@ -518,11 +518,11 @@ void MainWindow::actionShowAbout()
                  QString("<td colspan=""1"" rowspan=""1""><h1>QTRunner</h1></td></tr>")+
                  QString("<tr><td colspan=""1""></td></tr>")+
                  QString("<tr><td colspan=""1"">Version ")+QString(VERSION_STRING)+QString("</td></tr>")+
-                 QString("<tr><td colspan=""1""></td></tr>")+
                  QString("<tr><td colspan=""1"">Copyright © 2010 Alex Skoruppa. All rights reserved.</td></tr>")+
                  QString("<tr><td colspan=""1""></td></tr>")+
-                 QString("<tr><td colspan=""1"">QTRunner project @code.google:</td></tr>")+
-                 QString("<tr><td colspan=""1""></td></tr>")+
+                 QString("<tr><td colspan=""1"">Fork of QTRunner project on github:</td></tr>")+
+                 QString("<tr><td colspan=""1""><a href=\"http://github.com/jasonnocks/qtrunner/\">http://github.com/jasonnocks/qtrunner/</td></tr>")+
+                 QString("<tr><td colspan=""1"">Original project @code.google:</td></tr>")+
                  QString("<tr><td colspan=""1""><a href=\"http://code.google.com/p/qtrunner/\">http://code.google.com/p/qtrunner/</td></tr>")+
                  QString("<tr><td colspan=""1""></td></tr>")+
                  QString("<tr><td colspan=""1"">The program is provided AS IS with NO WARRANTY OF ANY KIND, INCLUDING THE WARRANTY OF DESIGN, MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE.</td></tr>")+
